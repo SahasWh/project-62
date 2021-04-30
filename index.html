@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <img class="img" src="img1.cms">
+        <img class="img" src="img2.jpg">
+        <img class="img" src="img3.jfif">
+        <img class="img" src="img4.jpg">
+    </section>
+    <section>
+        <ol class="carousel-indicators">
+            <li data-target="#MyCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#MyCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#MyCarousel" data-slide-to="2" class="active"></li>
+            <li data-target="#MyCarousel" data-slide-to="3" class="active"></li>
+        </ol>
+        <h1>pictures</h1>
+        <div class="line"></div>
+        <div id="MyCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive" src="img5.jpg">
+                        <div class="carousel-content">
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="img6.jpg">
+                        <div class="carousel-content">
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="img7.jpg">
+                        <div class="carousel-content">
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="img8.jpg">
+                        <div class="carousel-content">
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </section>
+</body>
+
+</html>
